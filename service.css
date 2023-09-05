@@ -6,7 +6,9 @@ section .carton{
     margin: 10px;
     display: flex;
     align-items: center;
-    width: 98%;
+    width: 78%;
+    margin-left : 5%;
+    margin-rigth : 5%
     margin-top: 20vh;
     max-height: 120vh;
     justify-content: center;
