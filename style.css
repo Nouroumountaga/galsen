@@ -220,6 +220,7 @@ article span{
         margin-top: -5vh;
     }
     .faBarre{
+        height : 80vh;
         display: block;
     }
     .images{
