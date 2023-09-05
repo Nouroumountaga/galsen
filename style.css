@@ -262,7 +262,7 @@ article span{
     }
     .faBarre .nav{
         display: block;
-        height: 40vh;
+        height: 60vh;
         position: absolute;
         left: -100%;
         width: 50%;
@@ -408,6 +408,7 @@ article span{
         flex-shrink: 0;
     }
     .lastOne h1{
+        margin-top:3vh
         font-size: 20px;
     }
 @keyframes slider{
@@ -415,10 +416,10 @@ article span{
         transform: translateX(0);
     }
     25%,45%{
-        transform: translateX(-30%);
+        transform: translateX(-35%);
     }
     50%,95%{
-        transform: translateX(-150%);
+        transform: translateX(-180%);
     }
     100%{
         transform: translateX(0);
