@@ -1,0 +1,5 @@
+<i class="fa fa-calculator" style="font-size:48px;color:red"></i>
+<br>
+<i class="fa fa-clock-o" style="font-size:36px"></i>
+<i class="fa fa-handshake-o" style="font-size:48px;color:red"></i>
+<br>

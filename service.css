@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section .carton{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    margin-top: 20vh;
+    max-height: 120vh;
+    justify-content: center;
+}
+section .carton-1{
+    background-color: rgb(163, 21, 21);
+    padding: 20px;
+    width: 25%;
+  
+}
+.carton p{
+    font-weight: 700;
+}
+.text article{
+    font-weight: 700;
+    font-size: 20px;
+}
+.lastOne article{
+    font-weight: 700;
+}
+section .carton-2{
+    background-color: rgba(220, 220, 220, 0.703);
+    padding: 20px;
+    width: 25%;
+}
+section .carton-2:hover{
+    background-color: rgba(220, 220, 220, 0.908);
+    border: 1px solid;
+    margin: 1%;
+    transition: 0.5s;
+}
+section .carton-3:hover{
+    background-color: rgba(255, 254, 254, 0.964);
+    border: 1px solid;
+    transition: 0.5s;
+    margin: 1%;
+}
+section .carton-1:hover{
+    background-color: rgba(220, 220, 220, 0.908);
+    border: 1px solid;
+    margin: 1%;
+    transition: 0.5s;
+}
+section .carton-3{
+    background-color: rgba(255, 254, 254, 0.724);
+    padding: 20px;
+    width: 25%;
+    color: #101010;
+}
+header h1{
+    text-align: center;
+    font-style: italic;
+    color: rgb(255, 252, 252);
+    text-decoration: underline 4px red;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('pexels-dominika-roseclay-1089842.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 82vh;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:800px) {
+    section .carton{
+        margin: 10px;
+        display: grid;
+        align-items: normal;
+        width: 98%;
+        margin-top: 10vh;
+    }
+    section .carton-1{
+        background-color: rgb(163, 21, 21);
+        padding: 20px;
+        width: 100%;
+        margin-top: 2.3%;
+
+    }
+    .carton p{
+        font-weight: 700;
+    }
+    .text article{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .lastOne article{
+        font-weight: 700;
+    }
+    section .carton-2{
+        background-color: rgba(220, 220, 220, 0.703);
+        padding: 20px;
+        width: 100%;
+        margin-top: 2.3%;
+    }
+    section .carton-3{
+        background-color: rgba(255, 255, 255, 0.724);
+        padding: 20px;
+        width: 100%;
+        border: 1px solid;
+        padding: 10px;
+        color: #101010;
+        margin-top: 2.3%;
+
+    }
+}
+@media screen and (min-width:797px) {
+    *{
+        margin: 0;
+    }
+}
