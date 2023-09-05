@@ -101,7 +101,7 @@
                         <br>
                         <textarea name="" id="" cols="22" rows="4" placeholder="payer via wave ou Orange-money MANUELLEMENT pour valider le formulaire numero:78-184-30-73"></textarea>
                         <br>
-                        <input type="submit" value="Valider" class="submit" style="cursor: pointer;" onclick="alertt();">
+                        <input type="submit" value="Valider" class="submit" style="cursor: pointer;">
                     </form>
                 </div>
                 <img src="20230901_213449.png" alt="">
@@ -207,10 +207,8 @@
              window.location.href = whatsappLink;
              }
              const validateButton = document.getElementById("submit");
-             validateButton.addEventListener("click", sendToWhatsApp , alert(txt));
-             function alertt(){
-                alert('Vous devez effectuer d abord le transfert  sur le numéro \n \n               +221 78 184 30 73 \n \n sinon votre demande  ne se sera pas traitée..... \n \n  Nous verifions votre requète si tout est bien faite  nous vous enverrons un de nos hommes toute de suite  \n \n      Vous recevrez une notification de confirmation ')
-             }
+             validateButton.addEventListener("click", sendToWhatsApp , alert('Vous devez effectuer d abord le transfert  sur le numéro \n \n               +221 78 184 30 73 \n \n sinon votre demande  ne se sera pas traitée..... \n \n  Nous verifions votre requète si tout est bien faite  nous vous enverrons un de nos hommes toute de suite  \n \n      Vous recevrez une notification de confirmation '));
+
     </script>
 </body>
 </html>
