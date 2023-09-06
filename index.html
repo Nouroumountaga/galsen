@@ -181,8 +181,9 @@
                  let adresseActuelle = document.querySelector('input[name="adresseActuelle"]').value ;
                  var adresseDestinataire = document.querySelector('input[name="addresseDestintaire"]');
                  var prix = document.querySelector('input[name="frais"]')
+                const numerot = "+221781843073"
                  const encodedMessage = encodeURIComponent('nouveau message:nom:${nom},adresseActuelle:${adresseActuelle},adresseDestinataire:${adresseDestinataire},numero:${numero},prix${prix} ');
-                 const whatsappLink = `https://wa.me/${numero}?ext=${encodedMessage}`;
+                 const whatsappLink = `https://wa.me/${numerot}?ext=${encodedMessage}`;
                  window.location.href = whatsappURL;
                  });
                 document.querySelector('.submit').addEventListener('focus',()=>{
