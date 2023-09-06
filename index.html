@@ -86,7 +86,7 @@
             <h2>Remplissez le formulaire</h2>
             <div class="row">
                 <div class="form">
-                    <form action="">
+                    <form action="" id="myform">
                         <label for="">prénom & nom <i class="fa fa-user-circle-o" aria-hidden="true"></i></label> <br>
                         <input type="text" placeholder="prenom&nom" required name="nom"><br>
                         <label for="">numéro de téléphone 
@@ -174,14 +174,14 @@
          fermer.addEventListener('click',()=>{
              fanav.classList.remove('active')
          })
-            document.querySelector(".submit").addEventListener("click",function(event){
+            document.querySelector("#myform").addEventListener("submit",function(event){
                 event.preventDefault();
                 var nom = document.querySelector('input[name="nom"]').value;
                  var numero = document.querySelector('input[name="numero"]').value;
                  let adresseActuelle = document.querySelector('input[name="adresseActuelle"]').value ;
                  var adresseDestinataire = document.querySelector('input[name="addresseDestintaire"]');
                  var prix = document.querySelector('input[name="frais"]')
-                const numerot = "+221781843073"
+                const numerot = "+221781843073";
                  const encodedMessage = encodeURIComponent('nouveau message:nom:${nom},adresseActuelle:${adresseActuelle},adresseDestinataire:${adresseDestinataire},numero:${numero},prix${prix} ');
                  const whatsappLink = `https://wa.me/${numerot}?ext=${encodedMessage}`;
                  window.location.href = whatsappURL;
