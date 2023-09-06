@@ -512,7 +512,7 @@ article span{
             background-size: 100% 80%;
          }
          .trans{
-            padding-top: 2vh;
+            padding-top: 4vh;
             background-image: url('20230901_213416.png');
             background-repeat:no-repeat;
             height: 67vh;
@@ -533,6 +533,7 @@ article span{
             color: rgb(191, 15, 15);
             text-shadow: 1px 1px 1px black;
             font-weight: bold;
+            font-size:18px
         }
         .lastOne{
             padding: 20px;
