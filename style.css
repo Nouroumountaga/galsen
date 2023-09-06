@@ -382,17 +382,15 @@ article span{
     .flex{
         margin-left: 1%;
         margin-right: 0%;
-        background-size: 80% 80%;
-        background-repeat: no-repeat;
         height: 1vh;
         align-items: center;
         line-height: 20px;
-        width: 90%;
+        width: 89%;
         padding-top: 1vh
     }
     .container{
         position: absolute;
-        top: 18vh;
+        top: 16vh;
     }
     .flex h2{
         font-size: 16px;
@@ -408,6 +406,7 @@ article span{
         padding: 10px;
         text-align: center;
         margin-left: 4%;
+        margin-top:-2vh
     }
     section .carton{
         margin: 0px;
