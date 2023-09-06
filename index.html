@@ -203,7 +203,7 @@
              let adresseActuelle = document.getElementById('adresseActuelle').value ;
              var adresseDestinataire = document.querySelector('addresseDestintaire');
              var prix = document.getElementById('frais')
-             const message = 'nom: '+ nom , 'adresseActuelle: ' + adresseActuelle , 'adresseDestinataire: ' + adresseDestinataire,'numero: ' + numero , 'prix: ' + prix;
+             const message = 'nom:  ${nom} , adresseActuelle:   ${adresseActuelle} , adresseDestinataire: ${adresseDestinataire} numero:  ${numero} , prix: ${prix}';
              const encodedMessage = encodeURIComponent(message);
              const whatsappLink = `https://api.whatsapp.com/send?phone=221781843073&text=${encodedMessage}`;
              window.location.href = whatsappLink;
