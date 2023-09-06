@@ -130,9 +130,7 @@
                     express Fondé par une équipe de jeunes 
                     ambitieux pour faciliter la vie aux 
                     vendeurs , Entreprises et chefs restaurant 
-                    Postes : LOUGA et Dakar , nous disposons aussi des services  
-                    en développement web , publicité facebook instagram ou boostage de page
-                    <a href="service.html" style="text-decoration: underline 4px red; font-size: 20px; color: #121212; margin: 20px; ">Voir plus</a>
+                    Postes : LOUGA et Dakar . 
                 </article>
             </div>
             <div class="lastOne">
@@ -144,6 +142,9 @@
                     <span class="ONE">01</span> Fiable <br>
                     <span>02</span> Rapide<br>
                     <span>03</span> 100% sur <br>
+                    nous disposons aussi des services  
+                    en développement web , publicité facebook instagram ou boostage de page
+                    <a href="service.html" style="text-decoration: underline 4px red; font-size: 20px; color: #121212; margin: 20px; ">Voir plus</a>
                 </article>
             </div>
         </div>
@@ -202,7 +203,7 @@
              let adresseActuelle = document.getElementById('adresseActuelle').value ;
              var adresseDestinataire = document.querySelector('addresseDestintaire');
              var prix = document.getElementById('frais')
-             const message = 'nom:${nom},adresseActuelle:${adresseActuelle},adresseDestinataire:${adresseDestinataire},numero:${numero},prix${prix}';
+             const message = 'nom: '+ nom , 'adresseActuelle: ' + adresseActuelle , 'adresseDestinataire: ' + adresseDestinataire,'numero: ' + numero , 'prix: ' + prix;
              const encodedMessage = encodeURIComponent(message);
              const whatsappLink = `https://api.whatsapp.com/send?phone=221781843073&text=${encodedMessage}`;
              window.location.href = whatsappLink;
