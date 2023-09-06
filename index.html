@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fast livraison</title>
 </head>
@@ -13,10 +12,10 @@
         <div class="logo">
             <img src="20230901_204038.png" alt="">
         </div>
-        <h1>FAST LIVRAISON </h1>
+        <h1>FAST LIVRAISON</h1>
     </header>
     <div class="btn">
-        <i class="fa fa-bars" aria-hidden="true" id="btnnew" style="background-color: #121212; color: red; padding: 10px; font-size: 25px; margin: 20px; border-radius: 10px; float: right; cursor: pointer;"></i>
+        <i class="fa fa-bars" style="font-size:18px; color:rgb(255, 0, 0); cursor: pointer;" id="btnnew"></i>
     </div>
     <nav>
         <ul>
@@ -33,7 +32,7 @@
                 <li><a href="">Accueil</a></li>
                 <li><a href="">Assistance</a></li>
                 <li><a href="">Propos</a></li>
-                <li><a href="">Services</a></li>
+                <li><a href="service.html">Services</a></li>
             </ul>
         </nav>
     </div>
@@ -45,40 +44,37 @@
         </div>
       </div>
     </section>
-    <div class="images"> <p style="font-weight: 600; padding-top: 5vh; text-align: center;text-decoration: underline red;">livrer vos produits en toute Securité</p>
-    </div>
     <section>
         <div class="carton" id="scrollcontent">
             <div class="carton-1">
-                <h1> PARTENARIAT <i class="fa fa-handshake-o" style="font-size:48px;color:rgb(248, 248, 248)"></i></h1>
-                <p> Vous avez votre boite,Entreprise,Boutique <br> ou restaurant vous manquez <br>
-                    des services de livraison fiables <br> pour ameliorer votre processus de vente <br>
-                    decouvrez le monde express de la vente <br> en signant un accord de PARTENARIAT <br>
-                    dès aujourd'hui appelez-nous au : +221 78 184 30 73 
-                </p>
+                <h1> PARTENARIAT<i class="fa fa-handshake-o" style="font-size:48px;color:rgb(248, 248, 248)"></i></h1>
+                <div class="hide">
+                    <p> 
+                        Vous avez votre boite,Entreprise,Boutique  ou restaurant vous manquez des services de livraison fiables  pour ameliorer votre processus de vente decouvrez le monde express de la vente  en signant un accord de PARTENARIAT dès aujourd'hui appelez-nous au : +221 78 184 30 73 
+                    </p>
+                </div>
             </div>
+            <h6></h6>
             <div class="carton-2">
-                <h1> DUREE  <i class="fa fa-clock-o" style="font-size:48px"></i></h1>
-                <p>En tant qu'association,nous vous fournissons  <br>des services de livraison <br>
-                    fiables et rapide <br> avec nos meilleurs livreurs, <br> des hommes de confiance <br>
-                    en moins de 10 minutes nous prenions votre livraison <br>
-                    et le deposer aux meilleurs des conditions possibles
-                </p>
+                <h1> DUREE LIVRAISON  <i class="fa fa-clock-o" style="font-size:48px ; cursor: pointer;"></i></h1>
+                <div class="hide">
+                    <p>En tant qu'association,nous vous fournissons des services de livraison fiables et rapide  avec nos meilleurs livreurs,  des hommes de confiance  en moins de 10 minutes nous prenions votre livraison et le deposer aux meilleurs des conditions possibles</p>
+                </div>
             </div>
+            <h6></h6>
             <div class="carton-1">
                 <h1> LIVRAISON <i class="fa fa-calculator" style="font-size:48px;color:rgb(255, 255, 255)"></i></h1>
-                <p>appelez-nous ou Remplissez notre formulaire  <br> tout juste en bas avec précision<br>
-                    effectuer le paiement via Wave ou Orange money <br>  pour valider le formulaire <br>
-                    dans les 10 minutes qui suivent un de nos hommes <br>
-                    sera à votre disposition 
-                </p>
+                <div class="hide" >
+                    <p>appelez-nous ou Remplissez notre formulaire  tout juste en bas avec précision effectuer le paiement via Wave ou Orange money   pour valider le formulaire dans les 10 minutes qui suivent un de nos hommes sera à votre disposition</p>
+                </div>
+                <h6></h6>
             </div>
             <div class="carton-3">
                 <h1> ASSISTANCE <i class="fa fa-phone-square" aria-hidden="true"  style="font-size:48px;"></i></h1>
-                <p style="color:white;">Pour plus d'informations, <br> contactez-nous ou envoyer nous un email <br>
-                    nous sommes aussi disponibles sur wathsapp <br>  pour repondre à toutes vos questions <br>
-                    et demandes votre satisfaction , notre désir ! 
-                </p>
+                <div class="hide" >
+                    <p style="color:white;">Pour plus d'informations,  contactez-nous ou envoyer nous un email nous sommes aussi disponibles sur wathsapp   pour repondre à toutes vos questions et demandes votre satisfaction , notre désir !</p>
+            </div>
+            <h6></h6>
             </div>
         </div>
         <div class="DEV">
@@ -90,7 +86,7 @@
                         <label for="">prénom & nom <i class="fa fa-user-circle-o" aria-hidden="true"></i></label> <br>
                         <input type="text" placeholder="prenom&nom" required id="nom"><br>
                         <label for="">numéro de téléphone 
-                            <i class="fa fa-phone-square" aria-hidden="true"></i></label><br>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i></label><br>
                         <input type="number" name="" id="numero" placeholder="votre numéro" required><br>
                         <label for="">adresse actuelle</label><br>
                         <textarea name="" id="adresseActuelle" cols="22" rows="1" required></textarea><br>
@@ -99,7 +95,7 @@
                         <label for="">Frais de la livraison <i class="fa fa-envelope" aria-hidden="true"></i></label><br>
                         <input type="text" placeholder="1250 fr" id="frais"> <br>
                         <br>
-                        <textarea name="" id="" cols="22" rows="4" placeholder="payer via wave ou Orange-money MANUELLEMENT pour valider le formulaire numero:78-184-30-73"></textarea>
+                        <textarea name="" id="" cols="22" rows="4" placeholder="payer via wave ou Orange-money pour valider le formulaire numero:78-184-30-73"></textarea>
                         <br>
                         <input type="submit" value="Valider" class="submit" style="cursor: pointer;">
                     </form>
@@ -122,15 +118,14 @@
             </div>
         </div>
     </section>
-     <br>
     <br>
     <section>
         <div class="last">
             <div class="lastOne">
-                 <br>
+                <br><br>
                 <h1>A PROPOS DE NOUS</h1>
                 <h3>FAST LIVRAISON LOUGA</h3>
-                <h2>FAST LIVRAISON</h2>
+                <h2>FAST LIVRAISON </h2>
                 <article>
                     express Fondé par une équipe de jeunes 
                     ambitieux pour faciliter la vie aux 
@@ -141,12 +136,10 @@
                 </article>
             </div>
             <div class="lastOne">
-              
-                   <br>
+                <br><br>
                 <h1 >SAVOIR PLUS</h1>
-              
                 <h3>FAST LIVRAISON LOUGA-DAKAR</h3>
-                <h2 style="color: black;">FAST LIVRAISON DAKAR</h2>
+                <h2 style="color: black;">FAST LIVRAISON </h2>
                 <article style="color: rgb(145, 18, 18);">
                     <span class="ONE">01</span> Fiable <br>
                     <span>02</span> Rapide<br>
@@ -186,12 +179,20 @@
         </div>
     </footer>
     <script>
-         var buttonn = document.querySelector('#btnnew')
-         var fanav = document.querySelector('.nav')
+        const carton = document.querySelector('.carton');
+        var hides = document.querySelectorAll('.hide');
+        var hyper = carton.querySelectorAll('h1');
+        hyper.forEach(h1 =>{
+            h1.addEventListener('click',()=>{
+                alert(h1.parentNode.textContent)
+            })
+        })
+         var buttonn = document.querySelector('#btnnew');
+         var fanav = document.querySelector('.nav');
          buttonn.addEventListener('click',()=>{
              fanav.classList.add('active')
          })
-         var fermer = document.querySelector('#fermer')
+         var fermer = document.querySelector('#fermer');
          fermer.addEventListener('click',()=>{
              fanav.classList.remove('active')
          })
@@ -199,16 +200,18 @@
              var nom = document.querySelector('#nom').value;
              var numero = document.querySelector('#numero').value;
              let adresseActuelle = document.getElementById('adresseActuelle').value ;
-             var adresseDestinataire = document.querySelector('"addresseDestintaire');
+             var adresseDestinataire = document.querySelector('addresseDestintaire');
              var prix = document.getElementById('frais')
              const message = 'nom:${nom},adresseActuelle:${adresseActuelle},adresseDestinataire:${adresseDestinataire},numero:${numero},prix${prix}';
              const encodedMessage = encodeURIComponent(message);
              const whatsappLink = `https://api.whatsapp.com/send?phone=221781843073&text=${encodedMessage}`;
              window.location.href = whatsappLink;
              }
-             const validateButton = document.getElementById("submit");
-             validateButton.addEventListener("click", sendToWhatsApp , alert('Vous devez effectuer d abord le transfert  sur le numéro \n \n               +221 78 184 30 73 \n \n sinon votre demande  ne se sera pas traitée..... \n \n  Nous verifions votre requète si tout est bien faite  nous vous enverrons un de nos hommes toute de suite  \n \n      Vous recevrez une notification de confirmation '));
-
+            document.querySelector(".submit").addEventListener("click",sendToWhatsApp );
+            document.querySelector('.submit').addEventListener('focus',()=>{
+                alert('Vous devez effectuer d abord le transfert  sur le numéro \n \n               +221 78 184 30 73 \n \n sinon votre demande  ne se sera pas traitée..... \n \n  Nous verifions votre requète si tout est bien faite  nous vous enverrons un de nos hommes toute de suite  \n \n      Vous recevrez une notification de confirmation ')
+            })
+            
     </script>
 </body>
 </html>
