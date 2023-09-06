@@ -379,8 +379,12 @@ article span{
         margin: 10px;
         display: flex;
         width:100%;
+         flex-wrap:wrap;
         margin-left:0%;
     }
+      .carton h1{
+           text-align:center;
+      }
     section .carton-1{
         background-color: rgb(163, 21, 21);
         padding: 20px;
@@ -435,7 +439,7 @@ article span{
         display: none;
     }
     .carton{
-        animation: slider 12s infinite ease-in-out;
+        animation: 12s infinite ease-in-out;
         display: flex;
         transition: 0.3s;
        
