@@ -1,6 +1,4 @@
-*{margin: 0;padding: 0;overflow-x:hidden}
-*{
-     overflow-x: none;}
+*{margin: 0;padding: 0;}
 header img{
     width:23%;
 }
@@ -242,6 +240,21 @@ article span{
         margin: 0;
         justify-content: space-between;
     }
+      .lastOne h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+.lastOne h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: darkgrey;
+}
+.last h2{
+    color: rgb(191, 15, 15);
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+     font-size:19px;
+}
     .btn{
         display: block;
         margin: 20px;
