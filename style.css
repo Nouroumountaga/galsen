@@ -870,8 +870,8 @@ iframe{
         }
                 iframe{
             width: 100%;
-            margin-right: 2%;
-            margin-left: 2%;
+            margin-right: 8%;
+            margin-left: 8%;
             border: 1px solid rgb(163, 21, 21);
             box-shadow: 2px 2px 2px rgb(156, 150, 150);
             height: 60vh;
@@ -1247,8 +1247,8 @@ iframe{
     }
     iframe{
         width: 100%;
-        margin-right: 2%;
-        margin-left: 0%;
+        margin-right: 10%;
+        margin-left: 10%;
         border: 1px solid rgb(163, 21, 21);
         box-shadow: 2px 2px 2px rgb(156, 150, 150);
         height: 60vh;
