@@ -235,6 +235,14 @@ article span{
     width: 100%;
     background-size: 90% 100%;
  }
+iframe{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 2%;
+    border: 1px solid rgb(163, 21, 21);
+    box-shadow: 2px 2px 2px rgb(156, 150, 150);
+    height: 40vh;
+}
 
  @media screen and (max-width:600px) {
     header {
@@ -860,6 +868,14 @@ article span{
             margin: 0;
             justify-content: space-between;
         }
+                iframe{
+            width: 100%;
+            margin-right: 2%;
+            margin-left: 2%;
+            border: 1px solid rgb(163, 21, 21);
+            box-shadow: 2px 2px 2px rgb(156, 150, 150);
+            height: 60vh;
+        }
     
           .lastOne h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1228,5 +1244,13 @@ article span{
         padding: 10px;
         text-align: center;
         margin-left: 4%;
+    }
+    iframe{
+        width: 100%;
+        margin-right: 2%;
+        margin-left: 0%;
+        border: 1px solid rgb(163, 21, 21);
+        box-shadow: 2px 2px 2px rgb(156, 150, 150);
+        height: 60vh;
     }
 }
