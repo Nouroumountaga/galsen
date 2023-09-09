@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="live.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenu sur les pages des livreurs</h1>
+    </header>
+    <div class="container">
+        <div class="icon">
+            <img src="icons8-cadeau-96.png" alt="">
+            <div class="article">
+                <p>téléphone portable iphone</p>
+                <p>AdresseActuelle : <span id="span">cv</span></p>
+                <p>AddresseDestinataire : <span id="span">cv</span></p>
+                <button>Contactez le vendeur <i class="fa fa-phone-square" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="icon">
+            <img src="icons8-cadeau-96.png" alt="">
+            <div class="article">
+                <p>téléphone portable iphone</p>
+                <p>AdresseActuelle : <span id="span">pp</span></p>
+                <p>AddresseDestinataire : <span id="span">pp</span></p>
+                <button>Contactez le vendeur <i class="fa fa-phone-square" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="icon">
+            <img src="icons8-cadeau-96.png" alt="">
+            <div class="article">
+                <p>téléphone portable iphone</p>
+                <p>AdresseActuelle : <span id="span">pp</span></p>
+                <p>AddresseDestinataire : <span id="span">aa</span></p>
+                <button>Contactez le vendeur <i class="fa fa-phone-square" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="icon">
+            <img src="icons8-cadeau-96.png" alt="">
+            <div class="article">
+                <p>téléphone portable iphone</p>
+                <p>AdresseActuelle : <span id="span">ee</span></p>
+                <p>AddresseDestinataire : <span id="span">ee</span></p>
+                <button>Contactez le vendeur <i class="fa fa-phone-square" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var span = document.querySelectorAll('#span');
+        for (var i = 0; i<span.length;i++){
+            nom = 'item'+ String(i)
+            var nv = localStorage.getItem(nom);
+            
+
+        }
+    </script>
+</body>
+</html>
